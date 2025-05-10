@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Airport Connectivity Map</title>
+  
+  <!-- Load D3.js v6 -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  
+  <!-- Load Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+  
+  <!-- Load CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="title-container">
+    <h1>Global Airport Connectivity Map</h1>
+  </div>
+  
+  <!-- Create an element where the map will take place -->
+  <div id="mapid"></div>
+  
+  <!-- Status message for loading and errors -->
+  <div id="status-message">Loading map and airport data...</div>
+  
+  <!-- Load your custom JS - Updated for your folder structure -->
+  <script src="js/tooltip.js"></script>
+  <script src="js/legend.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/intro_modal.js"></script>
+</body>
+</html>
